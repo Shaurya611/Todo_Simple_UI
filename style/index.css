@@ -1,0 +1,84 @@
+*,
+html,
+div,
+body {
+  /* prevent default value */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* typography, font, bg */
+
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar_div {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.navbar_div > h1 {
+  text-align: center;
+}
+.input_div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* padding: 1rem = 16px; */
+}
+.input_div > input {
+  background-color: rgb(176, 199, 48);
+  color: black;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  height: 2rem;
+  width: 300px;
+  font-size: 14px;
+
+}
+
+.input_div > button {
+  background-color: aqua;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  border: none;
+  color: black;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+.todo_lists_div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+.todo_lists_div > div > * {
+    margin-right: 1rem;
+}
+/* Update button */
+.todo_lists_div > div > button:nth-child(2){
+    background-color:teal;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    border: none;
+    color: black;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+/* Delete button */
+.todo_lists_div > div > button:nth-child(3){
+    background-color:chocolate;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    border: none;
+    color: whitesmoke;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
