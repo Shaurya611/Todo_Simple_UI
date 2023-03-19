@@ -1,6 +1,6 @@
 # Todo_Simple_UI
 ## It is simple Todo_Application
-### Features : you can add todo, update todo and also you can delete.
+### Features : you can add todo, update todo and also you can also  delete.
 
 
 ![UI of the Todo_Application](https://user-images.githubusercontent.com/101393314/226121931-840f9667-165a-46ad-90cf-9f0a692e7e72.png)
